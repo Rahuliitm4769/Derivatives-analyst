@@ -1,0 +1,13 @@
+Details to rub back test on Algotest
+
+To run the back test of a particular strategy we will build the legs of that using the strategy builder
+
+1. select the instrument - I did Nifty
+2. select strategy type (positional or intraday) - I chose positional 
+3. Expiry - Weekly
+4. square off - partial 
+5. trade time - 9:17 to 3:15
+6.For particular legs like long options book profit (TP) for 200 points, exit position (SL) for 20% loss.
+7. Overall SL - 50% of premium paid for spreads like bull call or bear spread and iron condor
+8. Select the time period from 01/01/2004 to 01/01/2024 to capture events like 2008 crisis and Covid 19
+9. Run the baktest
